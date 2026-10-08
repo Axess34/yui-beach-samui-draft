@@ -191,3 +191,9 @@ footer.site ul{list-style:none;display:grid;gap:6px}
   .mbar a.call{background:var(--ember);font-size:14px}
   footer.site{padding-bottom:120px}
 }
+@media(max-width:600px){.gallery{columns:2;column-gap:10px}.gallery a{margin-bottom:10px}}
+.phero-img.phero-collage img{position:static;inset:auto}
+.item img{object-position:50% 68%}
+.phero-collage{height:480px;grid-template-rows:repeat(2,minmax(0,1fr));grid-template-columns:repeat(2,minmax(0,1fr))}
+.phero-collage img{min-height:0}
+@media(max-width:860px){.phero-collage{height:340px}}
